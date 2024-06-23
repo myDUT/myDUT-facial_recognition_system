@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-xd%@!weryr%233_le5$+e1&h*4mp+c&4mo@)^=@k*f^_%*bv#o
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['localhost', '127.0.0.1', '172.23.144.1']
+ALLOWED_HOSTS = ['localhost', '127.0.0.1', '172.23.144.1', '34.143.249.167']
 
 
 # Application definition
@@ -126,14 +126,14 @@ STATIC_URL = 'static/'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 # MinIO (or AWS S3) config
-MINIO_ENDPOINT = '172.23.144.133:9000'
-MINIO_ACCESS_KEY_ID = 'r9Fsr6GkIDj9tgb6oExn'
-MINIO_SECRET_ACCESS_KEY = 'XcrlhaMb6r1g3GanYwcrxtH6T0POJ01KBqchWkAI'
+MINIO_ENDPOINT = '34.143.249.167:9000'
+MINIO_ACCESS_KEY_ID = '7LsbAW0wmk67rNHH9bie'
+MINIO_SECRET_ACCESS_KEY = 'B2BVd2HIHOr1qtbVTk0kI2EO1SbFRBAMNDI3sMlX'
 MINIO_STORAGE_BUCKET_NAME = 'mydut-private-dev'
 MINIO_USE_SSL = False
 # AWS_S3_REGION_NAME = 'vn-dng-dut-1'
 
 # External service config
-CHECKIN_SERVICE_HOST = '127.0.0.1'
+CHECKIN_SERVICE_HOST = '34.143.249.167'
 CHECKIN_SERVICE_PORT = '8080'
 
